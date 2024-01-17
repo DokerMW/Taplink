@@ -176,3 +176,20 @@ body {
   background-color: #000;
 }
 /*=================================================================================================*/
+
+/*===== footer style ==============================================================================*/
+
+.footer__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #35454f;
+  border-radius: 10px;
+}
+.footer__link {
+  font-size: 24px;
+  letter-spacing: 4px;
+  padding: 23px 0;
+  color: #fff;
+}
+/*=================================================================================================*/
