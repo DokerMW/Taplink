@@ -121,6 +121,13 @@ body {
   padding: 0 5px;
   flex: 0 1 50%;
   height: 55px;
+  cursor: pointer;
+  transition: transform 0.5s ease 0s;
+}
+.buttons__item:active .buttons__link {
+  position: relative;
+  top: 2px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 .buttons__item:last-child {
   flex: 1 1 100%;
@@ -135,6 +142,7 @@ body {
   text-align: center;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
 }
 .buttons__link_vk {
   background-color: #0077ff;
@@ -180,11 +188,17 @@ body {
 /*===== footer style ==============================================================================*/
 
 .footer__btn {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #35454f;
   border-radius: 10px;
+  transition: transform 0.5s ease 0s;
+}
+.footer__btn:hover {
+  background-color: #d6001c;
+  transform: scale(1.02);
 }
 .footer__link {
   font-size: 24px;
