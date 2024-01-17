@@ -1,7 +1,8 @@
 /* ======= Общие стили ===========================================================================*/
+
 body {
-  height: 100%;
-  padding: 20px 0;
+  height: auto;
+  padding: 10px 0;
   background-color: #f2f2f2;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: normal;
@@ -9,8 +10,7 @@ body {
 .wrapper {
   max-width: 430px;
   width: 100%;
-  min-height: 100%;
-  padding-bottom: 21px;
+  padding-bottom: 15px;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -89,16 +89,16 @@ body {
 
 /*===== Стили main ================================================================================*/
 .main {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .main__container {
-  padding: 22px 18px 44px;
+  padding: 18px 18px 30px 18px;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 5px 5px 22.2px 1px rgba(0, 0, 0, 0.25);
 }
 .buttons {
-  margin-bottom: 72px;
+  margin-bottom: 65px;
   position: relative;
 }
 .buttons::after {
@@ -186,24 +186,21 @@ body {
 /*=================================================================================================*/
 
 /*===== footer style ==============================================================================*/
-
-.footer__btn {
-  cursor: pointer;
+.footer__link {
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #35454f;
   border-radius: 10px;
+  font-size: 22px;
   transition: transform 0.5s ease 0s;
+  cursor: pointer;
+  letter-spacing: 4px;
+  color: #fff;
 }
-.footer__btn:hover {
+.footer__link:hover {
   background-color: #d6001c;
   transform: scale(1.02);
-}
-.footer__link {
-  font-size: 24px;
-  letter-spacing: 4px;
-  padding: 23px 0;
-  color: #fff;
 }
 /*=================================================================================================*/
