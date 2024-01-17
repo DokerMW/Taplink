@@ -27,7 +27,7 @@ body {
   border-radius: 0 0 50% 50%;
   padding: 36px 18px;
   color: #fff;
-  background: url("../img/header-bg.jpg") center / cover no-repeat;
+  background: url("../img/header-bg.webp") center / cover no-repeat;
 }
 .header__body {
   width: 100%;
